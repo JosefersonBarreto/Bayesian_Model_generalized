@@ -1,0 +1,94 @@
+.main-content pre>code {
+    padding: 0;
+    margin: 0;
+    color: rgb(12, 31, 48);
+    word-break: normal;
+    white-space: pre;
+    background: 0 0;
+    border: 0;
+}
+
+.main-content code {
+    padding: 2px 4px;
+    font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace;
+    color: #000000;
+    background-color: #64748a;
+    border-radius: .3rem;
+}
+
+.main-content pre>code {
+    padding: 0;
+    margin: 0;
+    color: rgb(124, 0, 255);
+    word-break: normal;
+    white-space: pre;
+    background: 0 0;
+    border: 0;
+}
+
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    color: #000000;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #161617;
+    background-color: #768fa9;
+}
+
+div.blue pre {
+    background-color: #c6d0d4;
+}
+
+.main-content pre {
+    padding: 8px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font: 1rem Consolas,"Liberation Mono",Menlo,Courier,monospace;
+    color: #567482;
+    word-wrap: normal;
+    background-color: #f3f6fa;
+    border: solid 4px #33516f;
+    border-radius: .3rem;
+    line-height: 1.45;
+    overflow: auto;
+}
+
+
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc_disabled {
+    cursor: pointer;
+    *cursor: hand;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-color: blue;
+}
+
+.main-content table th {
+    font-weight: 700;
+    background-color: #203bea;
+    color: #f0f0f0;
+}
+
+table.dataTable th, table.dataTable td {
+    box-sizing: content-box;
+    color: #382710;
+    background-color: #337d98;
+}
+
+code span.co {
+    color: #170754;
+    font-style: italic;
+}
+
+div.blue pre {
+    background-color: #c5cfd2;
+}
